@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/logo.png" />
+    <link rel="stylesheet" href="./../../style.css" />
+    <link rel="stylesheet" href="./../../tailwind.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+      integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <title>Adhésion - HEI Clubs</title>
+
+    <script type="module" src="membership.js"></script>
+  </head>
+  <body>
+    <nav
+      id="top-nav"
+      class="sticky p-4 top-0 w-full z-50 bg-primary-500 shadow-lg transition-all duration-300 ease-in-out"
+    >
+      <div
+        class="nav-bar max-w-7xl mx-auto sm:px-6 flex justify-between items-center"
+      ></div>
+    </nav>
+
+    <main class="bg-gray-200">
+      <section id="banner" class="bg-primary-600 text-white py-16"></section>
+      <section id="mainForm" class="bg-gray-200 p-4 md:p-6 lg:p-10">
+        <div class="max-w-3xl m-auto rounded-md border border-primary-500 p-4">
+          <h2 class="text-2xl font-bold text-primary-600 mb-4">
+            Formulaire d'Adhésion
+          </h2>
+          <div class="form">
+            <form
+              action=""
+              method="post"
+              class="text-primary-500 grid grid-cols-1 md:grid-cols-2 gap-4 "
+            >
+              <div class="col-span-full md:col-span-1">
+                <p>Nom</p>
+                <input type="text" name="name" placeholder="nom..." id="name" class="w-full p-2 border border-primary-500 mt-1 focus:outline-none focus:ring rounded-md bg-gray-100"/>
+              </div>
+              <div class="col-span-full md:col-span-1">
+                <p>Prenom</p>
+                <input type="text" name="firstname" placeholder="prenom..." id="firstname" class="w-full p-2 border border-primary-500 mt-1 focus:outline-none focus:ring rounded-md bg-gray-100"/>
+              </div>
+              <div class="col-span-full">
+                <p>Email</p>
+                <input type="email" name="email" placeholder="email..." id="email" class="w-full p-2 border border-primary-500 mt-1 focus:outline-none focus:ring rounded-md bg-gray-100"/>
+              </div>
+              <div class="col-span-full">
+                <p>Club</p>
+                <select type="select" name="firstname" placeholder="prenom..." id="firstname" class="w-full p-2 border border-primary-500 mt-1 focus:outline-none focus:ring rounded-md bg-gray-100">
+                  <optgroup>Slectionner un club</optgroup>
+                  <option value="maths">mathématique</option>
+                </select>
+              </div>
+              <div class="col-span-full">
+                <p>Messqge</p>
+                <textarea name="message" placeholder="Pourquoi souhaitez-vous rejoindre un club? Quelles sont vos attentions?" id="message" class="h-32 w-full p-2 border border-primary-500 mt-1 focus:outline-none focus:ring rounded-md bg-gray-100">Pourquoi?</textarea>
+              </div>
+              <button type="" class="col-span-2 font-semibold py-2 rounded-lg text-white bg-secondary-500 hover:bg-secondary-700 transition-all duration-500">Envoyer ma demande d'Adhésion</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="bg-primary-500 text-white"></footer>
+  </body>
+</html>

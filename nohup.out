@@ -1,0 +1,393 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/usr/lib/python3.10/http/server.py", line 1307, in <module>
+    test(
+  File "/usr/lib/python3.10/http/server.py", line 1258, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+  File "/usr/lib/python3.10/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 1301, in server_bind
+    return super().server_bind()
+  File "/usr/lib/python3.10/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.10/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8000
+}
+
+Node.js v23.8.0
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8000
+}
+
+Node.js v23.8.0
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8000
+}
+
+Node.js v23.8.0
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8000
+}
+
+Node.js v23.8.0
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8000
+}
+
+Node.js v23.8.0
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8000
+}
+
+Node.js v23.8.0
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8000
+}
+
+Node.js v23.8.0
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8000
+}
+
+Node.js v23.8.0
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8000
+}
+
+Node.js v23.8.0
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8000
+}
+
+Node.js v23.8.0
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8000
+}
+
+Node.js v23.8.0
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8000
+}
+
+Node.js v23.8.0
+node:events:485
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:8000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at node:net:2203:7
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1973:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 8000
+}
+
+Node.js v23.8.0
+Starting up http-server, serving ./
+
+http-server version: 14.1.1
+
+http-server settings: 
+CORS: disabled
+Cache: 3600 seconds
+Connection Timeout: 120 seconds
+Directory Listings: visible
+AutoIndex: visible
+Serve GZIP Files: false
+Serve Brotli Files: false
+Default File Extension: none
+
+Available on:
+  http://127.0.0.1:8000
+  http://192.168.88.249:8000
+Hit CTRL-C to stop the server
+
+[Sat Mar 15 2025 16:03:57 GMT+0300 (East Africa Time)]  "GET /" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+(node:3003) [DEP0066] DeprecationWarning: OutgoingMessage.prototype._headers is deprecated
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[Sat Mar 15 2025 16:03:57 GMT+0300 (East Africa Time)]  "GET /style.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:03:57 GMT+0300 (East Africa Time)]  "GET /tailwind.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:03:57 GMT+0300 (East Africa Time)]  "GET /Assets/index.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:03:57 GMT+0300 (East Africa Time)]  "GET /Assets/images/bgbanner.jpeg" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:03:57 GMT+0300 (East Africa Time)]  "GET /Assets/images/logo.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:03:58 GMT+0300 (East Africa Time)]  "GET /Assets/images/maths.jpg" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:03:58 GMT+0300 (East Africa Time)]  "GET /Assets/images/ball.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:03:58 GMT+0300 (East Africa Time)]  "GET /Assets/images/basket.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:03:58 GMT+0300 (East Africa Time)]  "GET /Assets/images/music.jpg" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:03:58 GMT+0300 (East Africa Time)]  "GET /Assets/images/smatchin.jpg" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:03:58 GMT+0300 (East Africa Time)]  "GET /Assets/images/default-events.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:03:58 GMT+0300 (East Africa Time)]  "GET /Assets/images/victory.jpg" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:03:58 GMT+0300 (East Africa Time)]  "GET /Assets/images/music.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:03:58 GMT+0300 (East Africa Time)]  "GET /Assets/images/book.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:03:58 GMT+0300 (East Africa Time)]  "GET /Assets/images/favorite.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:04:11 GMT+0300 (East Africa Time)]  "GET /Assets/clubs/clubs.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:04:11 GMT+0300 (East Africa Time)]  "GET /Assets/clubs/clubs.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:04:11 GMT+0300 (East Africa Time)]  "GET /Assets/images/default-clubs.jpg" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:04:23 GMT+0300 (East Africa Time)]  "GET /Assets/events/events.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:04:23 GMT+0300 (East Africa Time)]  "GET /Assets/events/events.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:04:42 GMT+0300 (East Africa Time)]  "GET /Assets/news/news.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:04:42 GMT+0300 (East Africa Time)]  "GET /Assets/news/news.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:04:42 GMT+0300 (East Africa Time)]  "GET /placeholder.svg?height=400&width=800" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:04:42 GMT+0300 (East Africa Time)]  "GET /placeholder.svg?height=400&width=800" Error (404): "Not found"
+[Sat Mar 15 2025 16:05:54 GMT+0300 (East Africa Time)]  "GET /Assets/membership/membership.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:05:55 GMT+0300 (East Africa Time)]  "GET /Assets/membership/membership.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:05:55 GMT+0300 (East Africa Time)]  "GET /Assets/membership/[object%20Object]" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:05:55 GMT+0300 (East Africa Time)]  "GET /Assets/membership/[object%20Object]" Error (404): "Not found"
+[Sat Mar 15 2025 16:06:03 GMT+0300 (East Africa Time)]  "GET /Assets/membership/[object%20Object]" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:06:03 GMT+0300 (East Africa Time)]  "GET /Assets/membership/[object%20Object]" Error (404): "Not found"
+[Sat Mar 15 2025 16:06:09 GMT+0300 (East Africa Time)]  "GET /Assets/contact/contact.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:06:09 GMT+0300 (East Africa Time)]  "GET /Assets/contact/contact.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:06:09 GMT+0300 (East Africa Time)]  "GET /Assets/contact/[object%20Object]" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:06:09 GMT+0300 (East Africa Time)]  "GET /Assets/contact/[object%20Object]" Error (404): "Not found"
+[Sat Mar 15 2025 16:06:44 GMT+0300 (East Africa Time)]  "GET /Assets/contact/[object%20Object]" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:06:44 GMT+0300 (East Africa Time)]  "GET /Assets/contact/[object%20Object]" Error (404): "Not found"
+[Sat Mar 15 2025 16:06:57 GMT+0300 (East Africa Time)]  "GET /Assets/membership/[object%20Object]" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:06:57 GMT+0300 (East Africa Time)]  "GET /Assets/membership/[object%20Object]" Error (404): "Not found"
+[Sat Mar 15 2025 16:17:26 GMT+0300 (East Africa Time)]  "GET /Assets/membership/[object%20Object]" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:17:26 GMT+0300 (East Africa Time)]  "GET /Assets/membership/[object%20Object]" Error (404): "Not found"
+[Sat Mar 15 2025 16:17:33 GMT+0300 (East Africa Time)]  "GET /Assets/contact/[object%20Object]" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:17:33 GMT+0300 (East Africa Time)]  "GET /Assets/contact/[object%20Object]" Error (404): "Not found"
+[Sat Mar 15 2025 16:22:48 GMT+0300 (East Africa Time)]  "GET /Assets/news/Assets/search.html?q=Maths" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:22:48 GMT+0300 (East Africa Time)]  "GET /Assets/news/Assets/search.html?q=Maths" Error (404): "Not found"
+[Sat Mar 15 2025 16:31:58 GMT+0300 (East Africa Time)]  "GET /actualites/robotics-success" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 16:31:58 GMT+0300 (East Africa Time)]  "GET /actualites/robotics-success" Error (404): "Not found"
+[Sat Mar 15 2025 19:17:06 GMT+0300 (East Africa Time)]  "GET /index.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:17:06 GMT+0300 (East Africa Time)]  "GET /style.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:17:06 GMT+0300 (East Africa Time)]  "GET /tailwind.css" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:17:06 GMT+0300 (East Africa Time)]  "GET /Assets/index.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:17:07 GMT+0300 (East Africa Time)]  "GET /Assets/images/logo.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:17:08 GMT+0300 (East Africa Time)]  "GET /Assets/images/ball.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:17:08 GMT+0300 (East Africa Time)]  "GET /Assets/images/basket.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:17:08 GMT+0300 (East Africa Time)]  "GET /Assets/images/music.jpg" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:17:08 GMT+0300 (East Africa Time)]  "GET /Assets/images/maths.jpg" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:17:08 GMT+0300 (East Africa Time)]  "GET /Assets/images/smatchin.jpg" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:17:08 GMT+0300 (East Africa Time)]  "GET /Assets/images/default-events.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:17:08 GMT+0300 (East Africa Time)]  "GET /Assets/images/victory.jpg" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:17:08 GMT+0300 (East Africa Time)]  "GET /Assets/images/music.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:17:08 GMT+0300 (East Africa Time)]  "GET /Assets/images/book.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:17:08 GMT+0300 (East Africa Time)]  "GET /Assets/images/favorite.png" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:18:19 GMT+0300 (East Africa Time)]  "GET /Assets/news/news.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:18:19 GMT+0300 (East Africa Time)]  "GET /Assets/news/news.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:18:19 GMT+0300 (East Africa Time)]  "GET /placeholder.svg?height=400&width=800" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:18:19 GMT+0300 (East Africa Time)]  "GET /placeholder.svg?height=400&width=800" Error (404): "Not found"
+[Sat Mar 15 2025 19:18:24 GMT+0300 (East Africa Time)]  "GET /Assets/clubs/clubs.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:18:24 GMT+0300 (East Africa Time)]  "GET /Assets/clubs/clubs.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:18:24 GMT+0300 (East Africa Time)]  "GET /Assets/images/default-clubs.jpg" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:19:27 GMT+0300 (East Africa Time)]  "GET /Assets/clubs/club-details.html?club=dance" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:19:27 GMT+0300 (East Africa Time)]  "GET /Assets/clubs/club-details.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:20:05 GMT+0300 (East Africa Time)]  "GET /Assets/events/events.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:20:05 GMT+0300 (East Africa Time)]  "GET /Assets/events/events.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:20:28 GMT+0300 (East Africa Time)]  "GET /placeholder.svg?height=400&width=800" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:20:28 GMT+0300 (East Africa Time)]  "GET /placeholder.svg?height=400&width=800" Error (404): "Not found"
+[Sat Mar 15 2025 19:20:32 GMT+0300 (East Africa Time)]  "GET /Assets/membership/membership.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:20:32 GMT+0300 (East Africa Time)]  "GET /Assets/membership/membership.js" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:20:32 GMT+0300 (East Africa Time)]  "GET /Assets/membership/[object%20Object]" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:20:32 GMT+0300 (East Africa Time)]  "GET /Assets/membership/[object%20Object]" Error (404): "Not found"
+[Sat Mar 15 2025 19:20:48 GMT+0300 (East Africa Time)]  "GET /Assets/news/Assets/search.html?q=jean" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:20:48 GMT+0300 (East Africa Time)]  "GET /Assets/news/Assets/search.html?q=jean" Error (404): "Not found"
+[Sat Mar 15 2025 19:22:24 GMT+0300 (East Africa Time)]  "GET /Assets/membership/membership.html?club=undefined" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:22:24 GMT+0300 (East Africa Time)]  "GET /Assets/membership/[object%20Object]" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:22:24 GMT+0300 (East Africa Time)]  "GET /Assets/membership/[object%20Object]" Error (404): "Not found"
+[Sat Mar 15 2025 19:27:36 GMT+0300 (East Africa Time)]  "GET /placeholder.svg?height=400&width=800" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:27:36 GMT+0300 (East Africa Time)]  "GET /placeholder.svg?height=400&width=800" Error (404): "Not found"
+[Sat Mar 15 2025 19:27:56 GMT+0300 (East Africa Time)]  "GET /Assets/clubs/clubs.html?club=undefined" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:28:01 GMT+0300 (East Africa Time)]  "GET /Assets/membership/[object%20Object]" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:28:01 GMT+0300 (East Africa Time)]  "GET /Assets/membership/[object%20Object]" Error (404): "Not found"
+[Sat Mar 15 2025 19:29:18 GMT+0300 (East Africa Time)]  "GET /Assets/membership/[object%20Object]" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:29:18 GMT+0300 (East Africa Time)]  "GET /Assets/membership/[object%20Object]" Error (404): "Not found"
+[Sat Mar 15 2025 19:29:33 GMT+0300 (East Africa Time)]  "GET /Assets/clubs/club-details.html?club=basketball" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:32:25 GMT+0300 (East Africa Time)]  "GET /index.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[Sat Mar 15 2025 19:32:26 GMT+0300 (East Africa Time)]  "GET /index.html" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
