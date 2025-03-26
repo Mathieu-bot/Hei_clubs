@@ -4,6 +4,7 @@ import {
   generateCard,
   cardStyle,
   setCardDateStyle,
+  generateBanner,
 } from "./index.js";
 
 const links = {
@@ -76,9 +77,37 @@ const clubs = {
 const container = document.getElementById("container");
 const logoLink = "images/logo.png";
 const navbar = document.getElementById("top-nav");
+const banner = document.getElementById("banner");
+
 document.addEventListener("DOMContentLoaded", () => {
+  // Récupérer le terme de recherche depuis l'URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const searchTerm = urlParams.get("q");
+
+  // Configurer la bannière
+  const bannerObject = {
+    title: searchTerm ? `Résultats pour "${searchTerm}"` : "Recherche",
+    description: searchTerm 
+      ? "Voici les résultats correspondant à votre recherche"
+      : "Utilisez la barre de recherche pour trouver ce que vous cherchez"
+  };
+  generateBanner(banner, bannerObject);
+
+  // Configurer la navbar
   setNavbar(navbar, logoLink, logo, links);
-  generateCard(clubs, container, "phares", "search", detailsLink);
+
+  // Filtrer les clubs en fonction du terme de recherche
+  const filteredClubs = searchTerm
+    ? Object.fromEntries(
+        Object.entries(clubs).filter(([_, club]) => {
+          const searchText = `${club.title} ${club.description}`.toLowerCase();
+          return searchText.includes(searchTerm.toLowerCase());
+        })
+      )
+    : clubs;
+
+  // Générer les cartes filtrées
+  generateCard(filteredClubs, container, "phares", "search", detailsLink);
   cardStyle();
   setCardDateStyle();
 });
