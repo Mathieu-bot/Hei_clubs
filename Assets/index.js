@@ -56,7 +56,7 @@ const defaultNewsCover = `Assets/images/default-articles.jpg`;
 const defaultEventsCover = `Assets/images/default-events.png`;
 const topNav = document.getElementById("top-nav");
 const logoImage = "Assets/images/logo.png";
-const clubs = {
+export const clubs = {
   basketball: {
     title: "Club de Bascket",
     description:
@@ -79,7 +79,7 @@ const clubs = {
     icon: "Assets/images/favorite.png",
   },
 };
-const events = {
+export const events = {
   basketball: {
     name: "Club de Bascket",
     date: new Date(2025, 2, 12, 15),
@@ -109,7 +109,7 @@ const events = {
       "Le championnat annuel d'échecs de l'école est ouvert à tous les élèves. Plusieurs catégories selon les niveaux et des prix à gagner.",
   },
 };
-const news = {
+export const news = {
   basketball: {
     name: "Club de basket",
     title: "Le Club de Basket enchaîne les victoires !",
@@ -481,24 +481,34 @@ export const performSearch = (searchLocation) => {
   let searchTerm = document.getElementById("searchInput").value.trim();
 
   if (searchTerm) {
-    window.location.href = `${searchLocation}?q=${encodeURIComponent(
-      searchTerm
-    )}`;
+    // Stocker le terme de recherche dans sessionStorage pour le conserver pendant la navigation
+    sessionStorage.setItem('lastSearchTerm', searchTerm);
+    window.location.href = `${searchLocation}?q=${encodeURIComponent(searchTerm)}`;
   } else {
     alert("Veuillez entrer un terme de recherche.");
   }
 };
 export const filterResults = (searchTerm) => {
+  if (!searchTerm) return;
+  
+  searchTerm = searchTerm.toLowerCase();
   const items = document.querySelectorAll(".item");
+  let hasResults = false;
 
   items.forEach((item) => {
-    const text = item.textContent.toLowerCase();
-    if (text.includes(searchTerm.toLowerCase())) {
+    const title = item.querySelector('.title')?.textContent?.toLowerCase() || '';
+    const description = item.querySelector('.description')?.textContent?.toLowerCase() || '';
+    const searchText = `${title} ${description}`;
+
+    if (searchText.includes(searchTerm)) {
       item.style.display = "";
+      hasResults = true;
     } else {
       item.style.display = "none";
     }
   });
+
+  return hasResults;
 };
 
 const navbar = document.getElementById("top-nav");
